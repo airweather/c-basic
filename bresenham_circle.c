@@ -1,4 +1,4 @@
-void breseham_circle(int xc, int yc, int radius)
+void bresenham_circle(int xc, int yc, int radius)
 {
     void circlePoints(int, int, int, int);
     int F = 1 - radius, x = 0, y = radius;
